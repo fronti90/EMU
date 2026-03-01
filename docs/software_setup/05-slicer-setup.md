@@ -58,8 +58,10 @@ PRINT_END ; your existing print end macro
 > Replace the print end line with your existing print end command!
 
 #### Layer change G-code
+**After Layer change:**</br>
 ```
 ; ... your existing layer change G-code...
+SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
 _MMU_UPDATE_HEIGHT
 ```
 
