@@ -58,8 +58,10 @@ PRINT_END ; your existing print end macro
 > Replace the print end line with your existing print end command!
 
 #### Layer change G-code
+**After Layer change:**</br>
 ```
 ; ... your existing layer change G-code...
+SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
 _MMU_UPDATE_HEIGHT
 ```
 
@@ -68,9 +70,10 @@ If using a purge block set up:
 ```
 T[next_extruder]
 ```
-If you have the blobifier add-on set up, add the below change filament g-code. This will enable purge volume reporting in the slicer.
+If you have the blobifier add-on set up, add the below change filament g-code. This will enable purge volume reporting in the slicer. Also the retraction command is necessary to avoid double de-retracting and oozing on the prime tower.
 ```
 T[next_extruder]
+G1 E-{old_retract_length} F3000
 ; FLUSH_START
 ; EXTERNAL_PURGE {flush_length}
 ; FLUSH_END

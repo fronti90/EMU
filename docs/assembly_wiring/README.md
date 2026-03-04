@@ -4,6 +4,7 @@
 - [EMU - BOM, Printing, Assembly and Wiring Guide](#emu---bom-printing-assembly-and-wiring-guide)
   - [Table of Contents](#table-of-contents)
   - [BOM](#bom)
+  - [Recommended Upgrades](#recommended-upgrades)
   - [Print Settings](#print-settings)
     - [Filamentalist components and Lane stepper components:](#filamentalist-components-and-lane-stepper-components)
     - [Dry Box components:](#dry-box-components)
@@ -28,8 +29,9 @@
 ## BOM  
 The EMU Bill of Materials can be found here: [Draft BOM](https://docs.google.com/spreadsheets/d/1jYJXBgpc_iLDfC17fC2LTYKrSEy5ocPbGEQ_EEOGCvI)
 
-**Recommended optional extras:**
-1. [PCB hatch boards](https://github.com/DW-Tas/EMU/tree/main/PCB%20(optional)/hatch_board) - simplifies wiring.
+## Recommended Upgrades
+While entirely optional, the below upgrades are highly recommended. 
+1. [PCB hatch boards](https://github.com/DW-Tas/EMU/tree/main/PCB%20(optional)/hatch_board) - simplifies wiring, sealing of the box and reduces soldering need.
 2. [Proportional Sync Feedback Sensor](https://www.aliexpress.com/item/1005010470743517.html) - allows for clog, tangle detection and more accurate syncronisation between the EMU and the extruder.
 
 ## Print Settings
@@ -47,6 +49,10 @@ The below print settings are recommended for the filamentalist and lane stepper 
 - One wall top and bottom surfaces (optional but recommended - parts look nicer)
 - Disable thick bridges
 - Z hop enabled to avoid nozzle scraping (0.2 is sufficient)
+
+
+> [!IMPORTANT]
+> The [Idler_Roller_Axle](https://github.com/DW-Tas/EMU/blob/main/STL/Filamentalist/Idler_Roller_Axle.stl) and [[a]_Stepper_Tension_Arm](https://github.com/DW-Tas/EMU/blob/main/STL/Stepper/%5Ba%5D_Stepper_Tension_Arm%5BMR693zz%5D.stl) are best to be printed with **999 walls** to ensure adequate strength of the part and less chance of breakage.
 
 > [!IMPORTANT]
 > **Parts are not shrinkage compensated** - calibrate your filament shrinkage first! If the bearings are loose, you're either under extruding, or over compensating for shrinkage.<br/>
