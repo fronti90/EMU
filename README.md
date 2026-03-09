@@ -117,6 +117,11 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
   <img src="https://github.com/user-attachments/assets/d3fef867-5b20-4a57-a406-df7a284d2550" alt="1 (3)" width="24%"/>
 </p>
 
+## Mod's to main
+The following mod's from the community have been adopted into the main EMU release
+ - Rim roller with square nuts: [martijnvanduijneveldt](https://github.com/martijnvanduijneveldt)
+ - EMU Wiring Hatch Board: [kashine6](https://github.com/kashine6)
+
 ## This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
