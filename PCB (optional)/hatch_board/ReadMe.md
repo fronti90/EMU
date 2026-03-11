@@ -39,7 +39,9 @@ The soldering order for the JST XH headers is important. **First, solder the 8-p
 Use a hot soldering iron (320-340C) with a medium/thin tip.
 
 ## Sourcing
-The hatch board PCBs can be sourced from [the aliexpress store](https://www.aliexpress.com/item/1005011529532141.html) in packs of 5, or ordered DIY from JLCPCB or alternative PCB manufacturers.
+The hatch board PCBs can be sourced from the below two locations:
+1. [Aliexpress](https://www.aliexpress.com/item/1005011529532141.html) in sets of 5
+2. [JB3D](https://jb3d.uk/product/emu-hatch-pcb/) in individual sets.
 
 ## This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
