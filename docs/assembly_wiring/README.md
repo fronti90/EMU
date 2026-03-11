@@ -32,7 +32,8 @@ The EMU Bill of Materials can be found here: [Draft BOM](https://docs.google.com
 ## Recommended Upgrades
 While entirely optional, the below upgrades are highly recommended. 
 1. [PCB hatch boards](https://github.com/DW-Tas/EMU/tree/main/PCB%20(optional)/hatch_board) - simplifies wiring, sealing of the box and reduces soldering need.
-2. [Proportional Sync Feedback Sensor](https://www.aliexpress.com/item/1005010470743517.html) - allows for clog, tangle detection and more accurate syncronisation between the EMU and the extruder.
+2. [Eject button multi-LED PCB](https://github.com/DW-Tas/EMU/tree/main/PCB%20(optional)/multi_led_button) - simplifies wiring and displays animated effects when loading / unloading filament.
+3. [Proportional Sync Feedback Sensor](https://www.aliexpress.com/item/1005010470743517.html) - allows for clog, tangle detection and more accurate syncronisation between the EMU and the extruder.
 
 ## Print Settings
 
