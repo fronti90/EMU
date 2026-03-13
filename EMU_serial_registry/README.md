@@ -15,6 +15,8 @@
 **Serial #0010:** WoodWorker</br>
 **Serial #0011:** Dragi2k</br>
 **Serial #0012:** TheMeanCanEHdian</br>
+**Serial #0013:** Bender</br>
+**Serial #0014:** Pie36</br>
 </br>
 
 ### How to register:
