@@ -33,3 +33,20 @@ Stick to suppliers with a known supply chain.
 Standard EMU settings (999 walls) with shrinkage factor for your chosen filament.
 
 ![Hot & Sweaty](assets/mounted.jpg)
+
+## Code
+
+By default the SHT3X klipper module expects the sensor on 68 (0x44), however the DFRobot sensors can be found at 69 (0x45) unless ADR is connected to connected to GND.
+
+#### Example config for Lane_0 found in emu_macros.cfg
+
+    [temperature_sensor Lane_0]
+    sensor_type: SHT3X
+    i2c_address: 69
+    i2c_mcu: mmu0
+    i2c_software_scl_pin: mmu0:PB3
+    i2c_software_sda_pin: mmu0:PB4
+
+#### How it should look when working (4 lane example)
+
+![Working example](assets/4lanesht31.png)
