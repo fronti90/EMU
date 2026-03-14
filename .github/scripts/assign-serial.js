@@ -64,7 +64,7 @@ async function main() {
   execSync('git push');
 
   // Comment on the issue
-  const comment = `## Serial Assigned: ${serial}\n\nCongratulations **${submission.discord_username}**! Your EMU serial number is **${serial}**.\n\nYour entry has been added to the [Official EMU Serial Registry](https://github.com/DW-Tas/emu/tree/main/EMU_serial_registry).`;
+  const comment = `## Serial Assigned: \`${serial}\`\n\nCongratulations **${submission.discord_username}**! Your EMU serial number is \`${serial}\`.\n\nYour entry has been added to the [Official EMU Serial Registry](https://github.com/DW-Tas/emu/tree/main/EMU_serial_registry).`;
 
   await ghApi(`/repos/DW-Tas/emu/issues/${issueNumber}/comments`, token, {
     method: 'POST',
