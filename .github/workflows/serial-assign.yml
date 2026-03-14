@@ -1,0 +1,32 @@
+name: Assign EMU Serial Number
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  assign-serial:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Assign serial number
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_ACTOR: ${{ github.actor }}
+          WORKER_NOTIFY_URL: ${{ secrets.WORKER_NOTIFY_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: node .github/scripts/assign-serial.js
