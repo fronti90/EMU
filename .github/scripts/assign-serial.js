@@ -43,7 +43,7 @@ async function main() {
     serial,
     discord_username: submission.discord_username,
     discord_id: submission.discord_id,
-    photo_url: submission.photo_url,
+    media_urls: submission.media_urls || (submission.photo_url ? [submission.photo_url] : []),
     notes: submission.notes || '',
     date: new Date().toISOString().split('T')[0],
     approved_by: approvedBy,
