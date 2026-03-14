@@ -168,5 +168,14 @@
     "notes": "Legacy entry",
     "date": null,
     "approved_by": null
+  },
+  {
+    "serial": "#0017",
+    "discord_username": "dw.tas",
+    "discord_id": "1020617964732555306",
+    "photo_url": "https://emuimages.dwtas.net/1020617964732555306-1773487491700.jpg",
+    "notes": "Testing the serial engine",
+    "date": "2026-03-14",
+    "approved_by": "DW-Tas"
   }
 ]
