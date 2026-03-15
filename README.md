@@ -71,10 +71,7 @@ Dual pre-stepper sensors ensure **consistent run-out detection** and reliable re
 In addition, the isolated boxes ensure that any left over, rewound, filament cannot interfere with neighbouring lanes, **preventing a jam**.
 
 ### Built on the Filamentalist
-The lane assembly is based on the proven **[filamentalist V3 design with 688 bearings](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/Filamentalist_FV3_Rewinder)**, with no modifications necessary. 
-- Existing 688 bearing version filamentalist parts can be reused when building an EMU.
-- Optionally, the revised tensioner mount further improves pre-stepper switch actuation.
-- Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
+The lane assembly is based on the proven **[filamentalist V3 design with 688 bearings](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/Filamentalist_FV3_Rewinder)** with wide spool size compatibility. Built on the 74mm filamentalist stock setup, the unit fits even the slighlty wider KVP filament spools.
 
 <p align="center">
   <img src="/docs/assets/images/EMU_integrated_gate_unit_close_up.png" width="49%">
