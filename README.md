@@ -4,7 +4,7 @@
 ### A new take on a MMU by <a href="https://github.com/DW-Tas">DW-Tas</a> and <a href="https://github.com/igiannakas">igiannakas</a><br/>
 <a href="https://ko-fi.com/O5O5OCC0K"><img src="/docs/assets/images/Ko-fi_smol.png"> Ko-Fi</a>
 
-[![Join me on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/hG2NRazKG3) 
+[![Join me on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/hG2NRazKG3)   HappyHare Discord: https://discord.gg/Yt8Fe7FkNc
 
 **Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
